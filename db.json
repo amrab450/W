@@ -20,7 +20,7 @@
       "league": "Premier League",
       "id": 4
     },
-    
+
     {
       "name": "AJAX",
       "league": "Premier League",
@@ -42,9 +42,8 @@
       "id": 2,
       "name": "Player 2",
       "players": []
-    },
-   { 
-
+    }
+  ],
   "matches": [
     {
       "id": 1,
@@ -54,3 +53,15 @@
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
