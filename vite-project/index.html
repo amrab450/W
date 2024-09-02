@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <h1>CRD Application</h1>
+    <form id="create-team-form">
+        <label for="team-name">Team Name:</label>
+        <input type="text" id="team-name" name="team-name">
+        <button type="submit">Create Team</button>
+    </form>
+    <form id="create-player-form">
+        <label for="player-name">Player Name:</label>
+        <input type="text" id="player-name" name="player-name">
+        <button type="submit">Create Player</button>
+    </form>
+    <div id="teams"></div>
+    <div id="players"></div>
+    <script src="script.js"></script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

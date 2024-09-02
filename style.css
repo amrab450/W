@@ -50,11 +50,11 @@ button[type="submit"]:hover {
     background-color: #3e8e41;
 }
 
-#teams, #players, #matches {
+#team, #player {
     margin-top: 20px;
 }
 
-.team, .player, .match {
+.team, .player {
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -62,7 +62,7 @@ button[type="submit"]:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.team h2, .player h2, .match h2 {
+.team h2, .player h2S {
     margin-top: 0;
 }
 
